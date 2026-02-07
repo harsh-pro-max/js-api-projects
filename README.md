@@ -35,17 +35,19 @@ Search and explore country details using the **REST Countries API**.
 
 > Screenshot of the Country Explorer project:
 
-![Country Explorer Preview](./image.png)
+![Country Explorer Preview](./Country_expolore/image.png)
 
 ---
 
 ## 📂 Folder Structure
 
 ```text
+js-api-project/
+│
 ├── Country explore/
 │   ├── index.html
 │   ├── style.css
 │   ├── app.js
-    └── image.png
-    |__ readme.md
-
+│   └── image.png
+│
+└── README.md
