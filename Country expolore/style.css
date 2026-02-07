@@ -1,0 +1,118 @@
+/* ========== RESET & BASE ========== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+  min-height: 100vh;
+}
+
+/* ========== HEADER ========== */
+header {
+  background-color: #1e293b;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* ========== MAIN CONTAINER ========== */
+main {
+  max-width: 420px;
+  margin: 2rem auto;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+/* ========== INPUT & BUTTON ========== */
+#country {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border: 2px solid #cbd5e1;
+  border-radius: 6px;
+  margin-bottom: 0.8rem;
+  outline: none;
+}
+
+#country:focus {
+  border-color: #2563eb;
+}
+
+/* Button */
+#searchBtn {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+#searchBtn:hover {
+  background-color: #1e40af;
+}
+
+#searchBtn:disabled {
+  background-color: #94a3b8;
+  cursor: not-allowed;
+}
+
+/* ========== STATUS TEXT ========== */
+#statusText {
+  margin: 1rem 0;
+  font-size: 0.95rem;
+  color: #dc2626;
+}
+
+/* ========== RESULT BOX ========== */
+#result {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+/* Flag image */
+#result img {
+  width: 150px;
+  border-radius: 6px;
+  margin-bottom: 1rem;
+  border: 1px solid #e5e7eb;
+}
+
+/* Country name */
+#result h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+  color: #111827;
+}
+
+/* Info text */
+#result h3 {
+  font-size: 1rem;
+  margin: 0.3rem 0;
+  font-weight: normal;
+  color: #374151;
+}
+
+/* ========== FOOTER (OPTIONAL) ========== */
+footer {
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 0.85rem;
+  color: #64748b;
+}
