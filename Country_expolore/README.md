@@ -35,7 +35,7 @@ Search and explore country details using the **REST Countries API**.
 
 > Screenshot of the Country Explorer project:
 
-![Country Explorer Preview](./Country%20explore/image.png)
+![Country Explorer Preview](./image.png)
 
 ---
 
